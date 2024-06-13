@@ -94,7 +94,7 @@ struct Home: View {
     }
 
     func loadData() {
-        guard let url = URL(string: "https://raw.githubusercontent.com/PurzaVlad/Aplicatie/main/ImaginiApiListaAnimale/animale.json") else {
+        guard let url = URL(string: "https://raw.githubusercontent.com/PurzaVlad/API/main/animale.json") else {
             print("Invalid URL")
             return
         }
@@ -122,9 +122,7 @@ struct Home: View {
     }
 }
 
-struct Home_Previews: PreviewProvider {
-    static var previews: some View {
-        Home()
-    }
+#Preview {
+    Home()
 }
 

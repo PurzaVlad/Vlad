@@ -85,6 +85,7 @@ struct SignIn: View {
         }
         .background(Color.white)
         .navigationBarTitle(Text("Sign in"), displayMode: .inline)
+        .navigationBarTitleTextColor(.brightPink)
         .overlay(
             ZStack(){
                 Color.white
