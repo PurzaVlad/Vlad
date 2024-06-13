@@ -12,7 +12,7 @@ struct AplicatieApp: App {
 }
 
 extension View {
-    @available(iOS 14, *)
+    @available(iOS 17, *)
     func navigationBarTitleTextColor(_ color: Color) -> some View {
         let uiColor = UIColor(color)
         UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: uiColor ]
