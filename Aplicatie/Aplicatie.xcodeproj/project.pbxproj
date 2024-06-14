@@ -15,6 +15,7 @@
 		AF320A822BFCA39000DB04AD /* AplicatieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF320A812BFCA39000DB04AD /* AplicatieTests.swift */; };
 		AF320A8C2BFCA39000DB04AD /* AplicatieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF320A8B2BFCA39000DB04AD /* AplicatieUITests.swift */; };
 		AF320A8E2BFCA39000DB04AD /* AplicatieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF320A8D2BFCA39000DB04AD /* AplicatieUITestsLaunchTests.swift */; };
+		AF6E52EE2C1C80530049808D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6E52ED2C1C80530049808D /* LoadingView.swift */; };
 		AFE252AC2C199C0C003916AB /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE252AB2C199C0C003916AB /* SignIn.swift */; };
 		AFE252AE2C199C34003916AB /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE252AD2C199C34003916AB /* SignUp.swift */; };
 		AFE252B02C199C54003916AB /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE252AF2C199C54003916AB /* ResetPassword.swift */; };
@@ -50,6 +51,7 @@
 		AF320A872BFCA39000DB04AD /* AplicatieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplicatieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF320A8B2BFCA39000DB04AD /* AplicatieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicatieUITests.swift; sourceTree = "<group>"; };
 		AF320A8D2BFCA39000DB04AD /* AplicatieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicatieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AF6E52ED2C1C80530049808D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		AFE252AB2C199C0C003916AB /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		AFE252AD2C199C34003916AB /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		AFE252AF2C199C54003916AB /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
@@ -117,10 +119,11 @@
 			children = (
 				AF320A702BFCA38C00DB04AD /* AplicatieApp.swift */,
 				AF320A722BFCA38C00DB04AD /* ContentView.swift */,
+				AF6E52ED2C1C80530049808D /* LoadingView.swift */,
 				AF320A742BFCA38F00DB04AD /* Assets.xcassets */,
 				AF005E7C2BFCA49800899F73 /* LogIn */,
+				AF6E52F12C1C90930049808D /* Home */,
 				AF320A762BFCA38F00DB04AD /* Preview Content */,
-				AFE252B12C199C98003916AB /* Home.swift */,
 			);
 			path = Aplicatie;
 			sourceTree = "<group>";
@@ -148,6 +151,14 @@
 				AF320A8D2BFCA39000DB04AD /* AplicatieUITestsLaunchTests.swift */,
 			);
 			path = AplicatieUITests;
+			sourceTree = "<group>";
+		};
+		AF6E52F12C1C90930049808D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AFE252B12C199C98003916AB /* Home.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				AF005E7B2BFCA45600899F73 /* LogIn.swift in Sources */,
 				AF320A712BFCA38C00DB04AD /* AplicatieApp.swift in Sources */,
 				AFE252AC2C199C0C003916AB /* SignIn.swift in Sources */,
+				AF6E52EE2C1C80530049808D /* LoadingView.swift in Sources */,
 				AFE252AE2C199C34003916AB /* SignUp.swift in Sources */,
 				AFE252B22C199C98003916AB /* Home.swift in Sources */,
 			);

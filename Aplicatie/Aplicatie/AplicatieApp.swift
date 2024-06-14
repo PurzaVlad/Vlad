@@ -4,7 +4,7 @@ import SwiftUI
 struct AplicatieApp: App {
     var body: some Scene {
         WindowGroup {
-            LogIn()
+            ContentView()
                 .rotationEffect(.degrees(0))
                 .preferredColorScheme(.light)       
         }
