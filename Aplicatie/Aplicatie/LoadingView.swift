@@ -1,10 +1,3 @@
-//
-//  LoadingView.swift
-//  Aplicatie
-//
-//  Created by Andra Purza on 14.06.2024.
-//
-
 import SwiftUI
 
 struct LoadingView: View {

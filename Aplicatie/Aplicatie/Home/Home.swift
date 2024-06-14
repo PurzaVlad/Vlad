@@ -11,7 +11,16 @@ struct Home: View {
             if isLoading{
                 LoadingView()
             } else {
-                
+                ScrollView{
+                    ForEach(1...5, id: \.self) { number in
+                        RoundedRectangle(cornerRadius: 12)
+                            .foregroundColor(.white)
+                            .frame(height:300)
+                            .overlay(
+                                Text("Muie")
+                            )
+                    }
+                }
             }
         }
         .onAppear {
@@ -20,8 +29,10 @@ struct Home: View {
             }
         }
         .navigationBarBackButtonHidden(true)
+        .padding()
     }
 }
+
 
 
 #Preview {
