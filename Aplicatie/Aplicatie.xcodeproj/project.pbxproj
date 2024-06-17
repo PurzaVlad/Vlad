@@ -15,7 +15,9 @@
 		AF320A822BFCA39000DB04AD /* AplicatieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF320A812BFCA39000DB04AD /* AplicatieTests.swift */; };
 		AF320A8C2BFCA39000DB04AD /* AplicatieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF320A8B2BFCA39000DB04AD /* AplicatieUITests.swift */; };
 		AF320A8E2BFCA39000DB04AD /* AplicatieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF320A8D2BFCA39000DB04AD /* AplicatieUITestsLaunchTests.swift */; };
-		AF6E52EE2C1C80530049808D /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6E52ED2C1C80530049808D /* LoadingView.swift */; };
+		AF6E52EE2C1C80530049808D /* LoadingViewFullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6E52ED2C1C80530049808D /* LoadingViewFullScreen.swift */; };
+		AF8E35582C2025A3004CD78F /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E35572C2025A3004CD78F /* test.swift */; };
+		AF8E355A2C2025BA004CD78F /* LoadingViewPartial.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8E35592C2025BA004CD78F /* LoadingViewPartial.swift */; };
 		AFBC615A2C1F57EE00DBBD95 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = AFBC61592C1F57EE00DBBD95 /* FirebaseAnalytics */; };
 		AFBC615C2C1F57EE00DBBD95 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = AFBC615B2C1F57EE00DBBD95 /* FirebaseAnalyticsOnDeviceConversion */; };
 		AFBC615E2C1F57EE00DBBD95 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AFBC615D2C1F57EE00DBBD95 /* FirebaseAnalyticsSwift */; };
@@ -57,7 +59,9 @@
 		AF320A872BFCA39000DB04AD /* AplicatieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AplicatieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF320A8B2BFCA39000DB04AD /* AplicatieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicatieUITests.swift; sourceTree = "<group>"; };
 		AF320A8D2BFCA39000DB04AD /* AplicatieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AplicatieUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		AF6E52ED2C1C80530049808D /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		AF6E52ED2C1C80530049808D /* LoadingViewFullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewFullScreen.swift; sourceTree = "<group>"; };
+		AF8E35572C2025A3004CD78F /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		AF8E35592C2025BA004CD78F /* LoadingViewPartial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewPartial.swift; sourceTree = "<group>"; };
 		AFBC61632C1F58E900DBBD95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AFE252AB2C199C0C003916AB /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		AFE252AD2C199C34003916AB /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
@@ -131,12 +135,14 @@
 			children = (
 				AF320A702BFCA38C00DB04AD /* AplicatieApp.swift */,
 				AF320A722BFCA38C00DB04AD /* ContentView.swift */,
-				AF6E52ED2C1C80530049808D /* LoadingView.swift */,
+				AF6E52ED2C1C80530049808D /* LoadingViewFullScreen.swift */,
+				AF8E35592C2025BA004CD78F /* LoadingViewPartial.swift */,
 				AFBC61632C1F58E900DBBD95 /* GoogleService-Info.plist */,
 				AF320A742BFCA38F00DB04AD /* Assets.xcassets */,
 				AF005E7C2BFCA49800899F73 /* LogIn */,
 				AF6E52F12C1C90930049808D /* Home */,
 				AF320A762BFCA38F00DB04AD /* Preview Content */,
+				AF8E35572C2025A3004CD78F /* test.swift */,
 			);
 			path = Aplicatie;
 			sourceTree = "<group>";
@@ -319,8 +325,10 @@
 				AF320A732BFCA38C00DB04AD /* ContentView.swift in Sources */,
 				AF005E7B2BFCA45600899F73 /* LogIn.swift in Sources */,
 				AF320A712BFCA38C00DB04AD /* AplicatieApp.swift in Sources */,
+				AF8E35582C2025A3004CD78F /* test.swift in Sources */,
 				AFE252AC2C199C0C003916AB /* SignIn.swift in Sources */,
-				AF6E52EE2C1C80530049808D /* LoadingView.swift in Sources */,
+				AF6E52EE2C1C80530049808D /* LoadingViewFullScreen.swift in Sources */,
+				AF8E355A2C2025BA004CD78F /* LoadingViewPartial.swift in Sources */,
 				AFE252AE2C199C34003916AB /* SignUp.swift in Sources */,
 				AFE252B22C199C98003916AB /* Home.swift in Sources */,
 			);

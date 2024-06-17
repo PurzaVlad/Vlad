@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct LoadingView: View {
+struct LoadingViewFullScreen: View {
     
     @State private var isBreathing = false
     
@@ -31,5 +31,5 @@ struct LoadingView: View {
 }
 
 #Preview {
-    LoadingView()
+    LoadingViewFullScreen()
 }

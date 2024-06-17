@@ -21,7 +21,7 @@ struct Home: View {
             }
         }
         .overlay(
-            isLoading ? AnyView(LoadingView()) : AnyView(EmptyView())
+            isLoading ? AnyView(LoadingViewFullScreen()) : AnyView(EmptyView())
         )
         .navigationBarBackButtonHidden(true)
         .padding()
