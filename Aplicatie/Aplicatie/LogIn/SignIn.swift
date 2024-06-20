@@ -116,6 +116,7 @@ struct SignIn: View {
             .frame(maxHeight: .infinity, alignment: .bottom)
             .ignoresSafeArea(.keyboard)
         )
+        .overlay(LoadingViewPartial())
     }
 }
 

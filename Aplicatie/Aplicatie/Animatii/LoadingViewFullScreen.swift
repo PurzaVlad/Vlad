@@ -8,7 +8,7 @@ struct LoadingViewFullScreen: View {
         ZStack{
             Color.white
             VStack {
-                Image("LogoTransparent")                         
+                Image("LogoNas")
                     .frame(width: 50, height: 50)
                     .offset(y: -50)
                     .scaleEffect(isBreathing ? 0.8 : 1)
@@ -19,13 +19,8 @@ struct LoadingViewFullScreen: View {
                             }
                         }
                     }
+                
             }
-            .overlay(
-                Circle()
-                    .stroke(Color.white, lineWidth: 155)
-                    .frame(width: 230, height: 230)
-                    .offset(y: -10)
-            )
         }
     }
 }
